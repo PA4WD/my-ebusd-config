@@ -307,7 +307,7 @@ r;w,,z1OpModeHeating,Heating OpMode Zone 1,,,,0600,,,opmode2,,,Heating operation
 r;w,,z1QuickVetoTemp,Quick Veto Temperature Zone 1,,,,0800,,,tempv,,,manual override setpoint for zone 1
 r;w,,z1SetBackTemp,Set Back Temperature Zone 1 (time controlled heating),,,,0900,,,tempv,,,set back setpoint for zone 1
 r;w,,z1SFMode,SFMode Zone 1,,,,0E00,,,sfmode,,,modes 2=party 4=onedayaway 5=onedayhome officially not supported in VRC720
-r,,z1RoomTemp,Actual Room Temperature Zone 1,,,,0F00,,,tempv,,,aktuelle Raumtemperatur in Zone 1
+r1,,z1RoomTemp,Actual Room Temperature Zone 1,,,,0F00,,,tempv,,,aktuelle Raumtemperatur in Zone 1
 r,,z1Unknown10,,,,,1000,,,HEX:*,,,
 r,,z1Unknown11,,,,,1100,,,HEX:*,,,
 r;w,,z1ValveStatus,Valve Status Zone 1,,,,1200,,,UCH,,,valve status of zone 1
@@ -330,7 +330,7 @@ r,,z1QuickVetoEndDate,end date of Quick Veto mode Zone 1,,,,2400,,,date,,,Quick 
 r,,z1Unknown25,,,,,2500,,,HEX:*,,,
 r;w,,z1QuickVetoDuration,Duration of Quick Veto mode in Hours Zone 1,,,,2600,,,EXP,,,valid values are 0.5-12 in 0.5 increments (default 3) writing enables quick veto mode
 r,,z1Unknown27,,,,,2700,,,HEX:*,,,
-r,,z1RoomHumidity,,,,,2800,,,EXP,,%,room humidity zone 1
+r1,,z1RoomHumidity,,,,,2800,,,EXP,,%,room humidity zone 1
 r,,z1Unknown29,,,,,2900,,,HEX:*,,,
 r,,z1Unknown2A,,,,,2A00,,,HEX:*,,,
 r,,z1Unknown2B,,,,,2B00,,,HEX:*,,,
